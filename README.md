@@ -5,11 +5,10 @@
 
 #### **Description**
 This is a personal gallery application built using Python that allows one to view photos and search for photos based on the category and the locations.
-![LANDING PAGE](home.png)
 
 
 #### Livelink
-https://aqueous-taiga-19712.herokuapp.com/
+https://still-ravine-16012.herokuapp.com/
 
 
 
@@ -43,7 +42,7 @@ curl https://bootstrap.pypa.io/get-pip.py | python
 
 #### Contact Information
 
-You can reach me on my email [waynemuyera17@gmail.com.com]
+You can reach me on my email [aizensalim52@gmail.com.com]
 
 
 
