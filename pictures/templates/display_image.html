@@ -1,14 +1,14 @@
 {%extends 'base.html'%} {% block content %}
  <div class="container">
     <div class="card one" style="border-radius: 20px; margin-top: 15px;">
-
+        <button type="button" name="button" class="btn btn-info" value="{{image.image.url}}" onclick="copylink(this.value)">Copy Image Link</button>
+        </div>
         <img src="{{image.image.url}}" style="height: 600px; width: 700px; border-radius: 20px; margin-left: 250px; margin-top: 50px;" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">{{image.title}}</h5>
             <p class="card-text">{{image.description}}</p><br>
             <p class="text-muted">Posted:{{ image.pub_date|timesince }} </p>
-            <button type="button" name="button" class="btn btn-info" value="{{image.image.url}}" onclick="copylink(this.value)">Copy Image Link</button>
-        </div>
+            
        
     </div>
     </div>
