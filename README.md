@@ -7,7 +7,7 @@
 This is a personal gallery application built using Python that allows one to view photos and search for photos based on the category and the locations.
 
 
-#### Livelink
+#### Live link
 https://still-ravine-16012.herokuapp.com/
 
 
