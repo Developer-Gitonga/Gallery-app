@@ -4,6 +4,7 @@ from .models import Category, Location, Galleria
 
 # Create your tests here.
 
+
 class CategoryTestClass(TestCase):
     # Set up method
     def setUp(self):
@@ -18,6 +19,7 @@ class CategoryTestClass(TestCase):
         self.culture.save_category()
         categorys = Category.objects.all()
         self.assertTrue(len(categorys) > 0)
+     
      
 class LocationTestClass(TestCase):
     # Setup Method
