@@ -1,0 +1,25 @@
+<nav class="navbar navbar-dark bg-primary">
+    <div class="container-fluid">
+        <div class="navbar-header">
+             <h2><a class="navbar-brand" href="{% url 'main' %}">Pata Picha</a></h2>
+        </div>
+          <!-- Adding a search form  -->
+    <div class="col-sm-4 col-md-4 navbar-right">
+
+        <form class="navbar-form" role="search" action="{% url 'search_results' %}">
+  
+          <div class="input-group">
+            <input style="border-radius: 10px;" type="text" class="form-control" placeholder="Culture,Sports,Food,Tourism and Travel" name="galleria">
+            <div class="input-group-btn">
+              <button  style="color: white; margin-left: 12px; border-radius: 10px;" class="btn btn-outline-success" type="submit"><i class="glyphicon glyphicon-search"></i>Search</button>
+            </div>
+          </div>
+  
+        </form>
+      </div>
+      
+      <!-- search form end -->
+
+
+    </div>
+</nav>
