@@ -9,6 +9,7 @@
             <h5 class="card-title">{{image.title}}</h5>
             <p class="card-text">{{image.description}}</p><br>
             <p class="text-muted">Posted:{{ image.pub_date|timesince }} </p>
+            <p class="card-text">{{image.location}}</p>
             <button type="button" name="button" class="btn btn-info" value="{{image.image.url}}" onclick="copylink(this.value)">Copy Image Link</button><br>
             </div>
     </div>
