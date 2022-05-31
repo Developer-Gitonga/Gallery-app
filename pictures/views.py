@@ -3,12 +3,15 @@ from django.http  import Http404, HttpResponse
 from django.core.exceptions import ObjectDoesNotExist
 from .models import Galleria
 import datetime as dt
+
 # Create your views here.
+
 
 def main(request):
     date = dt.date.today()
     post = Galleria.objects.all()
     return render(request, 'main.html',{"date": date,"post":post})
+
 
 def search_results(request):
     if 'galleria' in request.GET and request.GET["galleria"]:
@@ -22,6 +25,7 @@ def search_results(request):
     else:
        message = "You haven't searched for any term"
        return render(request, 'search.html',{"message":message})
+
 
 def one_image(request, galleria_id):
     try:
