@@ -42,6 +42,7 @@ class Galleria(models.Model):
     def delete_galleria(self):
         self.delete()
         
+        
     @classmethod
     def days_post(cls):
         today = dt.date.today()
