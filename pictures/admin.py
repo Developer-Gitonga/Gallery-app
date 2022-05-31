@@ -1,9 +1,7 @@
 from django.contrib import admin
 from pictures.models import Galleria, Location, Category
 
-
 # Register your models here.
-
 
 @admin.register(Galleria)
 class GalleriaAdmin(admin.ModelAdmin):
